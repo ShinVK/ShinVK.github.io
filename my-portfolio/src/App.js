@@ -1,24 +1,36 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { createTheme, CssBaseline, ThemeProvider } from '@mui/material';
+import Provider from './context/Provider';
+import Routes from './routes/Routes';
 
 function App() {
+  const theme = createTheme({
+    typography: {
+      fontFamily: '\'Sinkin\', \'sans-serif\'',
+    },
+    palette: {
+      primary: {
+        main: '#d14e4e',
+      },
+      secondary: {
+        main: '#3d315b',
+      },
+      background: {
+        default: '#f0f3f5',
+      },
+    },
+  });
+
+  // fontFamily: '\'Poppins\', \'sans-serif\'',
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider>
+      <ThemeProvider theme={ theme }>
+        <CssBaseline />
+        <Routes />
+      </ThemeProvider>
+    </Provider>
   );
 }
 
