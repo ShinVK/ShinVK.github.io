@@ -7,8 +7,8 @@ import back3 from '../assets/imgs/back23.jpeg';
 
 const styles = {
   paperContainer: {
-    backgroundImage: `linear-gradient(to bottom, rgba(248, 69, 78, 0.3), #2d3047), url(${back3})`,
-    minHeight: '50vh',
+    backgroundImage: `linear-gradient(to bottom, rgba(240,243,245,0.5), #2d3047), url(${back3})`,
+    // background: 'linear-gradient(180deg, rgba(240,243,245,1) 0%, rgba(45,48,71,1) 85%)',
     backgroundSize: 'cover',
   },
 };
@@ -32,7 +32,7 @@ export default function NewHome() {
                   component="div"
                   sx={ {
                     fontWeight: 800,
-                    fontSize: { xs: '5rem', sm: '7rem', lg: '8rem', xl: '10rem' },
+                    fontSize: { xs: '4.5rem', sm: '7rem', lg: '8rem', xl: '10rem' },
                     lineHeight: 1,
                     mb: 0,
                   } }
@@ -52,10 +52,10 @@ export default function NewHome() {
                   component="div"
                   sx={ {
                     fontWeight: 800,
-                    fontSize: { xs: '5rem', sm: '7rem', lg: '8rem', xl: '10rem' },
+                    fontSize: { xs: '4.5rem', sm: '7rem', lg: '8rem', xl: '10rem' },
                     lineHeight: 1.2,
                     mb: 0,
-                    letterSpacing: '-6px',
+                    letterSpacing: '-4px',
                   } }
                 >
                   BEM VINDO
@@ -150,23 +150,26 @@ export default function NewHome() {
                   variant="body1"
                   component="div"
                   sx={ {
-                    mt: { xs: 5, md: 0, xl: 12 },
+                    mt: { xs: 5, md: 10, xl: 15 },
                     fontWeight: 600,
                     maxWidth: '90vw',
                     textAlign: { xs: 'center', md: 'right' },
-                    fontSize: { xs: '2rem', xl: '3.2rem' },
+                    fontSize: { xs: '2rem', md: '2.5rem', xl: '3.2rem' },
                     lineHeight: 1,
                     mb: 0,
                   } }
                 >
-                  Olá, eu sou o Shin, brasileiro, estudante e desenvolvedor.
+                  Olá, eu sou o Shin,
+                  {' '}
+                  <span className="titleHomeDev" />
+                  {' '}
                 </Typography>
               </Grow>
             </Grid>
           </Grid>
         </Box>
       </Container>
-      <Paper style={ styles.paperContainer }>
+      <Paper style={ styles.paperContainer } sx={ { minHeight: { xs: '20vh', md: '30vh', lg: '40vh' } } }>
         <Typography variant="body1" component="div" sx={ { display: 'none' } }>
           hey soul sister
         </Typography>

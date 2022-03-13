@@ -1,13 +1,13 @@
 /* eslint-disable max-len */
 /* eslint-disable react/jsx-max-depth */
 import React from 'react';
-import { Parallax } from 'react-scroll-parallax';
 import {
   Box,
   Card,
   CardContent,
   CardMedia,
   Grid,
+  Paper,
   Typography } from '@mui/material';
 
 import htmlimage from '../assets/imgs/html.png';
@@ -19,179 +19,192 @@ import muilogo from '../assets/imgs/muilogo.png';
 import bootlogo from '../assets/imgs/bootlogo.svg';
 import sasslogo from '../assets/imgs/sassLogo.png';
 
+const styles = {
+  paperContainer: {
+    backgroundColor: '#2d3047',
+    minHeight: '50vh',
+    backgroundSize: 'cover',
+    marginTop: '-60px',
+  },
+};
+
 export default function Skills() {
   return (
-    <Box
-      sx={ {
-        position: 'relative',
-        minHeight: '100vh',
-        marginTop: 5,
-        marginBottom: 10,
-        left: '50%',
-        transform: 'translate(-50%, 0)',
-        maxWidth: { xl: '1100px', lg: '900px', md: 600 } } }
-    >
+    <Paper style={ styles.paperContainer } id="Habilidades">
 
-      <Grid container spacing={ 2 } alignItems="flex-start">
-        <Grid item xs={ 12 }>
-          <Parallax speed={ -5 }>
+      <Box
+        sx={ {
+          position: 'relative',
+          minHeight: '50vh',
+          marginTop: 0,
+          left: '50%',
+          transform: 'translate(-50%, 0)',
+          maxWidth: { xl: '1100px', lg: '900px', md: 600 } } }
+      >
+
+        <Grid container spacing={ 2 } alignItems="flex-start" sx={ { pb: 10 } }>
+          <Grid item xs={ 12 }>
             <Box
-              id="Habilidades"
+              className="glitchAbout"
               sx={ {
                 typography: 'title',
                 fontWeight: 800,
-                marginBottom: { md: 7, sm: 1 },
-                color: '#D14E4E',
+                ml: 5,
+                justifySelf: { xs: 'center', md: 'start' },
+                marginTop: 5,
+                color: '#f0f3f5',
+                mb: 5,
                 // marginLeft: 5,
-                fontSize: { xs: 25, sm: 35, md: 40, lg: 45 },
+                fontSize: { xs: 25, sm: 35, md: 40, lg: '5rem' },
                 display: 'block' } }
             >
+              <span aria-hidden="true">Habilidades</span>
               Habilidades
+              <span aria-hidden="true">Habilidades</span>
             </Box>
-          </Parallax>
+          </Grid>
+
+          <Grid item xs={ 5 } md={ 3 } sx={ { ml: 'auto', marginBottom: { xs: 2 } } }>
+            <Card sx={ { maxWidth: 345 } }>
+              <CardMedia
+                component="img"
+                height="110px"
+                image={ htmlimage }
+                alt="green iguana"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  HTML
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+
+          <Grid item xs={ 5 } md={ 3 } sx={ { mr: 'auto', marginBottom: { md: 3, xs: 2 } } }>
+
+            <Card sx={ { maxWidth: 345 } }>
+              <CardMedia
+                component="img"
+                height="110"
+                image={ csslogo }
+                alt="green iguana"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  CSS
+                </Typography>
+              </CardContent>
+            </Card>
+
+          </Grid>
+
+          <Grid item xs={ 5 } md={ 3 } sx={ { ml: 'auto', marginBottom: { md: 3, xs: 2 } } }>
+
+            <Card sx={ { maxWidth: 345 } }>
+              <CardMedia
+                component="img"
+                height="110"
+                image={ jslogo }
+                alt="green iguana"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  JavaScript
+                </Typography>
+              </CardContent>
+            </Card>
+
+          </Grid>
+
+          <Grid item xs={ 5 } md={ 3 } sx={ { mr: 'auto', marginBottom: { md: 3, xs: 2 } } }>
+
+            <Card sx={ { maxWidth: 345 } }>
+              <CardMedia
+                component="img"
+                height="110"
+                image={ reactlogo }
+                alt="green iguana"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  React JS
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+
+          <Grid item xs={ 5 } md={ 3 } sx={ { ml: 'auto', marginBottom: { md: 3, xs: 2 } } }>
+
+            <Card sx={ { maxWidth: 345 } }>
+              <CardMedia
+                component="img"
+                height="110"
+                image={ jestlogo }
+                alt="green iguana"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Jest
+                </Typography>
+              </CardContent>
+            </Card>
+
+          </Grid>
+
+          <Grid item xs={ 5 } md={ 3 } sx={ { mr: 'auto', marginBottom: { md: 3, xs: 2 } } }>
+            <Card sx={ { maxWidth: 345 } }>
+              <CardMedia
+                component="img"
+                height="110"
+                image={ muilogo }
+                alt="green iguana"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Material UI
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+
+          <Grid item xs={ 5 } md={ 3 } sx={ { ml: 'auto', marginBottom: { md: 3, xs: 2 } } }>
+
+            <Card sx={ { maxWidth: 345 } }>
+              <CardMedia
+                component="img"
+                height="110"
+                image={ bootlogo }
+                alt="green iguana"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Bootstrap
+                </Typography>
+              </CardContent>
+            </Card>
+
+          </Grid>
+
+          <Grid item xs={ 5 } md={ 3 } sx={ { mr: 'auto', marginBottom: { md: 3, xs: 2 } } }>
+
+            <Card sx={ { maxWidth: 345 } }>
+              <CardMedia
+                component="img"
+                height="110"
+                image={ sasslogo }
+                alt="green iguana"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  SASS
+                </Typography>
+              </CardContent>
+            </Card>
+
+          </Grid>
+
         </Grid>
-
-        <Grid item xs={ 6 } md={ 3 } sx={ { marginBottom: { xs: 2 } } }>
-          <Card sx={ { maxWidth: 345 } }>
-            <CardMedia
-              component="img"
-              height="140px"
-              image={ htmlimage }
-              alt="green iguana"
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                HTML
-              </Typography>
-            </CardContent>
-          </Card>
-        </Grid>
-
-        <Grid item xs={ 6 } md={ 3 } sx={ { marginBottom: { md: 3, xs: 2 } } }>
-
-          <Card sx={ { maxWidth: 345 } }>
-            <CardMedia
-              component="img"
-              height="140"
-              image={ csslogo }
-              alt="green iguana"
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                CSS
-              </Typography>
-            </CardContent>
-          </Card>
-
-        </Grid>
-
-        <Grid item xs={ 6 } md={ 3 } sx={ { marginBottom: { md: 3, xs: 2 } } }>
-
-          <Card sx={ { maxWidth: 345 } }>
-            <CardMedia
-              component="img"
-              height="140"
-              image={ jslogo }
-              alt="green iguana"
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                JavaScript
-              </Typography>
-            </CardContent>
-          </Card>
-
-        </Grid>
-
-        <Grid item xs={ 6 } md={ 3 } sx={ { marginBottom: { md: 3, xs: 2 } } }>
-
-          <Card sx={ { maxWidth: 345 } }>
-            <CardMedia
-              component="img"
-              height="140"
-              image={ reactlogo }
-              alt="green iguana"
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                React JS
-              </Typography>
-            </CardContent>
-          </Card>
-        </Grid>
-
-        <Grid item xs={ 6 } md={ 3 } sx={ { marginBottom: { md: 3, xs: 2 } } }>
-
-          <Card sx={ { maxWidth: 345 } }>
-            <CardMedia
-              component="img"
-              height="140"
-              image={ jestlogo }
-              alt="green iguana"
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                Jest
-              </Typography>
-            </CardContent>
-          </Card>
-
-        </Grid>
-
-        <Grid item xs={ 6 } md={ 3 } sx={ { marginBottom: { md: 3, xs: 2 } } }>
-
-          <Card sx={ { maxWidth: 345 } }>
-            <CardMedia
-              component="img"
-              height="140"
-              image={ muilogo }
-              alt="green iguana"
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                Material UI
-              </Typography>
-            </CardContent>
-          </Card>
-        </Grid>
-
-        <Grid item xs={ 6 } md={ 3 } sx={ { marginBottom: { md: 3, xs: 2 } } }>
-
-          <Card sx={ { maxWidth: 345 } }>
-            <CardMedia
-              component="img"
-              height="140"
-              image={ bootlogo }
-              alt="green iguana"
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                Bootstrap
-              </Typography>
-            </CardContent>
-          </Card>
-
-        </Grid>
-
-        <Grid item xs={ 6 } md={ 3 } sx={ { marginBottom: { md: 3, xs: 2 } } }>
-
-          <Card sx={ { maxWidth: 345 } }>
-            <CardMedia
-              component="img"
-              height="140"
-              image={ sasslogo }
-              alt="green iguana"
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                SASS
-              </Typography>
-            </CardContent>
-          </Card>
-
-        </Grid>
-
-      </Grid>
-    </Box>
+      </Box>
+    </Paper>
   );
 }
