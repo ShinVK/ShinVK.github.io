@@ -9,7 +9,7 @@ import profilePhoto from '../assets/imgs/profile.png';
 const styles = {
   paperContainer: {
     backgroundColor: '#2d3047',
-    minHeight: '100vh',
+    minHeight: '80vh',
     backgroundSize: 'cover',
   },
 };
@@ -17,7 +17,7 @@ const styles = {
 export default function Profile() {
   return (
     <Paper style={ styles.paperContainer }>
-      <div className="cardProfile">
+      {/* <div className="cardProfile">
         <div className="imgProfile">
           <img src={ profilePhoto } alt="profile" />
         </div>
@@ -25,7 +25,7 @@ export default function Profile() {
           <h2>Title</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla impedit est facilis. Voluptatibus deleniti unde commodi id, necessitatibus labore, nobis nisi ipsum voluptatem aliquid architecto quis quo asperiores laborum totam.</p>
         </div>
-      </div>
+      </div> */}
 
       <Box
         sx={ {
@@ -36,30 +36,49 @@ export default function Profile() {
           maxWidth: { xl: '1100px', lg: '900px', md: 600 } } }
       >
 
-        <Grid container>
+        <Grid
+          container
+          alignItems="center"
+          justifyContent="center"
+        >
           <Grid item xs={ 12 }>
             <Box
               id="Sobre"
+              className="glitchAbout"
               sx={ {
                 typography: 'title',
                 fontWeight: 800,
-                // marginTop: -10,
-                color: '#D14E4E',
+                ml: 5,
+                justifySelf: { xs: 'center', md: 'start' },
+                marginTop: 10,
+                color: '#f0f3f5',
+                mb: -10,
                 // marginLeft: 5,
-                fontSize: { xs: 25, sm: 35, md: 40, lg: 45 },
+                fontSize: { xs: 25, sm: 35, md: 40, lg: '5rem' },
                 display: 'block' } }
             >
+              <span aria-hidden="true">Sobre mim</span>
               Sobre mim
+              <span aria-hidden="true">Sobre mim</span>
             </Box>
           </Grid>
-          <Grid item xs={ 12 } md={ 5 }>
+          <div className="cardProfile">
+            <div className="imgProfile">
+              <img src={ profilePhoto } alt="profile" />
+            </div>
+            {/* <div className="content">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla impedit est facilis. Voluptatibus deleniti unde commodi id, necessitatibus labore, nobis nisi ipsum voluptatem aliquid architecto quis quo asperiores laborum totam.</p>
+            </div> */}
+          </div>
+          <Grid item xs={ 12 } md={ 7 }>
             <Box
               sx={ {
                 typography: 'body1',
                 fontWeight: 550,
-                color: '#ff9000',
+                color: '#f0f3f5',
                 textAlign: { xs: 'justify', md: 'justify' },
-                marginTop: { xs: 3, md: 5, lg: 10 },
+                marginTop: { xs: -3, md: -5, lg: -50 },
                 fontSize: { xs: 10, sm: 10, md: 15, lg: 20 },
                 display: 'block' } }
             >
@@ -74,7 +93,7 @@ export default function Profile() {
           </Grid>
           <Grid item xs={ 12 } md={ 7 }>
 
-            <Box
+            {/* <Box
               component="img"
               src={ profilePhoto }
               alt="avatar"
@@ -83,7 +102,7 @@ export default function Profile() {
                 marginLeft: 3.5,
                 width: '80%',
               } }
-            />
+            /> */}
 
           </Grid>
         </Grid>

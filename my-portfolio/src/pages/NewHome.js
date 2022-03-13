@@ -167,7 +167,9 @@ export default function NewHome() {
         </Box>
       </Container>
       <Paper style={ styles.paperContainer }>
-        <h3>Teste</h3>
+        <Typography variant="body1" component="div" sx={ { display: 'none' } }>
+          hey soul sister
+        </Typography>
       </Paper>
     </>
   );
