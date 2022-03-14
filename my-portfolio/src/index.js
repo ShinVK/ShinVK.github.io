@@ -7,7 +7,7 @@ import App from './App';
 
 ReactDOM.render(
   <ParallaxProvider>
-    <BrowserRouter>
+    <BrowserRouter basebane={ process.eventNames.PUBLIC_URL }>
       <App />
     </BrowserRouter>
   </ParallaxProvider>,
