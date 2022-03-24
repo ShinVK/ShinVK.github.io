@@ -1,10 +1,16 @@
 @font-face {
-  font-family: 'Poppins';
-  src: local('Poppins'), url(./fonts/Poppins-Regular.ttf) format('truetype');
-  font-family: 'Boston';
-  src: local('Boston'), url(./fonts/BOSTON\ CAPS.otf) format('opentype');
   font-family: 'Sinkin';
   src: local('Sinkin'), url(./fonts/SinkinSans-400Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Bellaboo';
+  src: local('Bellaboo'), url(./fonts/BELLABOO-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'notime';
+  src: local('notime'), url(./fonts/NoTime.ttf) format('truetype');
 }
 
 *,

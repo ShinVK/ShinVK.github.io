@@ -7,7 +7,10 @@ import Routes from './routes/Routes';
 function App() {
   const theme = createTheme({
     typography: {
-      fontFamily: '\'Sinkin\', \'sans-serif\'',
+      fontFamily: ['\'Sinkin\', \'sans-serif\'',
+        '\'Bellaboo\', \'sans-serif\'',
+        '\'notime\', \'sans-serif\'',
+      ].join(','),
     },
     palette: {
       primary: {
@@ -21,8 +24,6 @@ function App() {
       },
     },
   });
-
-  // fontFamily: '\'Poppins\', \'sans-serif\'',
 
   return (
     <Provider>
