@@ -104,12 +104,12 @@ export default function NewHome() {
                   variant="body1"
                   component="div"
                   sx={ {
-                    fontWeight: 800,
+                    fontWeight: 300,
                     width: '90%',
                     color: '#627264',
                     display: { xs: 'none', md: 'block' },
-                    fontFamily: 'DM Serif Display',
-                    textAlign: { md: 'right' },
+                    fontFamily: 'Bellaboo',
+                    textAlign: { md: 'center' },
                     justifyItems: 'end',
                     fontSize: { xs: '2.5rem', xl: '3rem' },
                     lineHeight: 1,
@@ -134,10 +134,10 @@ export default function NewHome() {
                     color: '#627264',
                     maxWidth: '90vw',
                     display: { xs: 'none', md: 'flex' },
-                    fontFamily: 'DM Serif Display',
-                    ml: 'auto',
-                    width: { md: 180, lg: 240, xl: 400 },
-                    textAlign: { md: 'justify' },
+                    fontFamily: 'Bellaboo',
+                    // ml: 20,
+                    width: { md: '100%' },
+                    textAlign: { md: 'center' },
                     fontSize: { xs: '2rem', xl: '2.5rem' },
                     lineHeight: 1,
                     mb: 5,
@@ -154,15 +154,15 @@ export default function NewHome() {
               >
                 <Typography
                   gutterBottom
-                  color="secondary"
                   variant="body1"
                   component="div"
                   sx={ {
-                    fontFamily: 'notime, Sinkin',
+                    fontFamily: 'Bellaboo, Sinkin',
                     mt: { xs: 5, md: 10, xl: 15 },
-                    fontWeight: 600,
+                    fontWeight: 400,
                     maxWidth: '90vw',
-                    textAlign: { xs: 'center', md: 'right' },
+                    color: '#B3B3B3',
+                    textAlign: { xs: 'center' },
                     fontSize: { xs: '2rem', md: '2.5rem', xl: '3.2rem' },
                     lineHeight: 1,
                     mb: 0,
