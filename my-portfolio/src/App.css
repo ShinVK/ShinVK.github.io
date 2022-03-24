@@ -13,6 +13,11 @@
   src: local('notime'), url(./fonts/NoTime.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'komadori';
+  src: local('komadori'), url(./fonts/komadori-mini.otf) format('opentype');
+}
+
 *,
 *::after,
 *::before {
@@ -333,8 +338,9 @@ body {
  .titleHomeDev:before {
 	content: 'BRASILEIRO';
 	text-transform: uppercase;
-	font-family: 'Sinkin';
-	color: #D14E4E;
+	font-family: 'notime';
+	color: #b5d6d6;
+  font-size: 5rem;
 	animation: word-switch 3s infinite;
 }
 

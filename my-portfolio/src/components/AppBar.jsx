@@ -127,11 +127,12 @@ const ResponsiveAppBar = () => {
                 href={ `#${page}` }
                 sx={
                   { my: 2,
+                    fontFamily: 'Bellaboo',
                     mr: { xs: 2, lg: 5 },
                     color: '#D14E4E',
                     display: 'block',
                     marginTop: 1,
-                    fontSize: { md: 15, lg: 20 },
+                    fontSize: { md: 15, lg: 28 },
                     marginBottom: 1 }
                 }
               >

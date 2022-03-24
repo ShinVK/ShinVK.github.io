@@ -30,6 +30,8 @@ export default function NewHome() {
                   variant="h1"
                   component="div"
                   sx={ {
+                    textAlign: 'center',
+                    color: '#e84855',
                     fontFamily: 'notime',
                     fontWeight: 800,
                     fontSize: { xs: '4.5rem', sm: '7rem', lg: '8rem', xl: '12rem' },
@@ -52,10 +54,11 @@ export default function NewHome() {
                   variant="h1"
                   component="div"
                   sx={ {
+                    textAlign: 'center',
                     fontFamily: 'notime, Sinkin',
                     fontWeight: 800,
                     fontSize: { xs: '4.5rem', sm: '7rem', lg: '8rem', xl: '12rem' },
-                    lineHeight: 1.2,
+                    lineHeight: 0.9,
                     mb: 0,
                     letterSpacing: '4px',
                   } }
@@ -74,11 +77,13 @@ export default function NewHome() {
                   variant="h1"
                   component="div"
                   sx={ {
-                    fontFamily: 'notime',
+                    textAlign: 'center',
+                    color: '#e84855',
+                    fontFamily: 'komadori',
                     fontWeight: 800,
                     fontSize: { xs: '5rem', sm: '7rem', lg: '9rem', xl: '13rem' },
-                    lineHeight: 0.8,
-                    letterSpacing: '-34px',
+                    lineHeight: 0.5,
+                    letterSpacing: '-4px',
                     mb: 0,
                   } }
                 >

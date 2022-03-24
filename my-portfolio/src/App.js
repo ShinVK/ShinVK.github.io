@@ -10,17 +10,18 @@ function App() {
       fontFamily: ['\'Sinkin\', \'sans-serif\'',
         '\'Bellaboo\', \'sans-serif\'',
         '\'notime\', \'sans-serif\'',
+        'komadori',
       ].join(','),
     },
     palette: {
       primary: {
-        main: '#d14e4e',
+        main: '#fffd82',
       },
       secondary: {
         main: '#3d315b',
       },
       background: {
-        default: '#f0f3f5',
+        default: '#070707',
       },
     },
   });
