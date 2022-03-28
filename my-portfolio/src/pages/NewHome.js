@@ -7,7 +7,7 @@ import back3 from '../assets/imgs/back23.jpeg';
 
 const styles = {
   paperContainer: {
-    backgroundImage: `linear-gradient(to bottom, rgba(240,243,245,0.5), #2d3047), url(${back3})`,
+    backgroundImage: `linear-gradient(to bottom, rgba(240,243,245,1),rgba(240,243,245,0.5)), url(${back3})`,
     // background: 'linear-gradient(180deg, rgba(240,243,245,1) 0%, rgba(45,48,71,1) 85%)',
     backgroundSize: 'cover',
   },
@@ -17,9 +17,9 @@ export default function NewHome() {
   return (
     <>
       <Container maxWidth={ false } sx={ { maxWidth: { xs: '80%', xl: 1600 } } }>
-        <Box component="div" sx={ { mt: 10, mb: 7, ml: -2.5 } }>
+        <Box component="div" sx={ { mt: { md: 13, xs: 5 }, mb: { md: 13, xs: 5 } } }>
           <Grid container>
-            <Grid item xs={ 12 } md={ 6 }>
+            <Grid item xs={ 12 } md={ 8 }>
               <Grow
                 in
                 style={ { transformOrigin: '0 0 0' } }
@@ -32,10 +32,10 @@ export default function NewHome() {
                   sx={ {
                     textAlign: 'center',
                     color: '#e84855',
-                    fontFamily: 'notime',
-                    fontWeight: 800,
-                    fontSize: { xs: '4.5rem', sm: '7rem', lg: '8rem', xl: '12rem' },
-                    lineHeight: 0.7,
+                    fontFamily: 'Bellaboo',
+                    fontWeight: 300,
+                    fontSize: { xs: '5.2rem', sm: '7rem', lg: '8rem', xl: '10rem' },
+                    lineHeight: 1.1,
                     mb: 0,
                     letterSpacing: '12px',
                   } }
@@ -55,10 +55,10 @@ export default function NewHome() {
                   component="div"
                   sx={ {
                     textAlign: 'center',
-                    fontFamily: 'notime, Sinkin',
-                    fontWeight: 800,
-                    fontSize: { xs: '4.5rem', sm: '7rem', lg: '8rem', xl: '12rem' },
-                    lineHeight: 0.9,
+                    fontFamily: 'Bellaboo',
+                    fontWeight: 300,
+                    fontSize: { xs: '5rem', sm: '7rem', lg: '8rem', xl: '10rem' },
+                    lineHeight: 1.1,
                     mb: 0,
                     letterSpacing: '4px',
                   } }
@@ -79,10 +79,10 @@ export default function NewHome() {
                   sx={ {
                     textAlign: 'center',
                     color: '#e84855',
-                    fontFamily: 'komadori',
+                    fontFamily: 'Bellaboo',
                     fontWeight: 800,
-                    fontSize: { xs: '5rem', sm: '7rem', lg: '9rem', xl: '13rem' },
-                    lineHeight: 0.5,
+                    fontSize: { xs: '6rem', sm: '7rem', lg: '9rem', xl: '10rem' },
+                    lineHeight: 1,
                     letterSpacing: '-4px',
                     mb: 0,
                   } }
@@ -92,7 +92,7 @@ export default function NewHome() {
               </Grow>
             </Grid>
 
-            <Grid item xs={ 12 } md={ 6 } justifyContent="flex-end">
+            <Grid item xs={ 12 } md={ 3 } justifyContent="flex-end">
               <Grow
                 in
                 style={ { transformOrigin: '0 0 0' } }
@@ -163,7 +163,7 @@ export default function NewHome() {
                     maxWidth: '90vw',
                     color: '#B3B3B3',
                     textAlign: { xs: 'center' },
-                    fontSize: { xs: '2rem', md: '2.5rem', xl: '3.2rem' },
+                    fontSize: { xs: '1.4rem', md: '2.5rem', xl: '3.2rem' },
                     lineHeight: 1,
                     mb: 0,
                   } }
@@ -175,6 +175,7 @@ export default function NewHome() {
                 </Typography>
               </Grow>
             </Grid>
+
           </Grid>
         </Box>
       </Container>

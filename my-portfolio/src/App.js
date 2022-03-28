@@ -10,7 +10,7 @@ function App() {
       fontFamily: ['\'Sinkin\', \'sans-serif\'',
         '\'Bellaboo\', \'sans-serif\'',
         '\'notime\', \'sans-serif\'',
-        'komadori',
+        'JustSimple',
       ].join(','),
     },
     palette: {

@@ -3,20 +3,20 @@
 import React from 'react';
 import { Box, Grid, Paper } from '@mui/material';
 import profilePhoto from '../assets/imgs/profile.png';
-// import daruma from '../assets/imgs/daruma.svg';
-// import back3 from '../assets/imgs/back23.jpeg';
+import avatarProf from '../assets/imgs/ava.svg';
 
 const styles = {
   paperContainer: {
-    backgroundColor: '#2d3047',
-    minHeight: '50vh',
-    backgroundSize: 'cover',
+    background: 'linear-gradient(0deg, rgba(134,134,134,1) 0%, rgba(134,134,134,1) 0%, rgba(32,34,33,1) 70%)',
+    marginTop: -10,
+    boxShadow: 'none',
+    // minHeight: '80vh',
   },
 };
 
 export default function Profile() {
   return (
-    <Paper style={ styles.paperContainer } id="Sobre">
+    <Paper style={ styles.paperContainer } id="Sobre" sx={ { minHeight: { xs: '40vh', sm: '40vh', md: '60vh', lg: '100vh' } } }>
       <Box
         sx={ {
           position: 'relative',
@@ -33,21 +33,24 @@ export default function Profile() {
         >
           <Grid item xs={ 12 }>
             <Box
-              className="glitchAbout"
+              className="glitchAbout2"
               sx={ {
+                fontFamily: 'Bellaboo',
                 typography: 'title',
-                fontWeight: 800,
+                fontWeight: 300,
                 ml: 5,
                 justifySelf: { xs: 'center', md: 'start' },
                 marginTop: 10,
                 color: '#f0f3f5',
                 mb: -10,
+                letterSpacing: 5,
                 // marginLeft: 5,
-                fontSize: { xs: 25, sm: 35, md: 40, lg: '5rem' },
+                fontSize: { xs: 30, sm: 35, md: 40, lg: '5rem' },
                 display: 'block' } }
             >
               <span aria-hidden="true">Sobre mim</span>
               Sobre mim
+
               <span aria-hidden="true">Sobre mim</span>
             </Box>
           </Grid>
@@ -72,23 +75,27 @@ export default function Profile() {
             <Box
               sx={ {
                 typography: 'body1',
-                fontWeight: 650,
-                color: '#ff9000',
+                fontFamily: 'Bellaboo',
+                fontWeight: 250,
+                color: '#f5d491',
+                letterSpacing: 4,
+                lineHeight: 1.4,
                 textAlign: { xs: 'justify', md: 'justify' },
                 marginTop: { xs: -10, md: 20, lg: 20 },
                 fontSize: { xs: 14, sm: 15, md: 15, lg: 20 },
                 mb: 15,
                 display: 'block' } }
             >
-              Olá, me chamo Victor Shin Kamiguchi, tenho 27 anos.
+              Olá, me chamo Victor Shin Kamiguchi, tenho 27 anos e sou apaixonado por codar.
               <br />
               <br />
-              Em agosto de 2021, iniciei meus estudos em programação na Trybe, uma escola de programação.
+              Em agosto de 2021, iniciei meus estudos em programação e desde então, todo dia busco me tornar um programador melhor.
+              <br />
               <br />
               Sempre fui curioso e gostei de aprender coisas novas. Durante minha vida tive contato com sony vegas, corel draw, photoshop, illustrator e Excel VBA.
               <br />
               <br />
-              Atualmente estudando BackEnd, com o objetivo de me tornar um programador fullstack.
+              Atualmente sou desenvolvedor web Front End, e estudando back End na trybe.
             </Box>
           </Grid>
           <Grid item xs={ 12 } md={ 6 }>
@@ -108,14 +115,13 @@ export default function Profile() {
                 sx={ {
                   position: 'absolute',
                   top: 0,
-                  left: 0,
+                  left: 100,
                   width: '100%',
                   height: '100%' } }
               >
-                <img src={ profilePhoto } style={ { width: '100%' } } alt="profile" />
+                <img src={ avatarProf } style={ { width: '70%' } } alt="profile" />
               </Box>
             </Box>
-
           </Grid>
         </Grid>
       </Box>
