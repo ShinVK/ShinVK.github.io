@@ -23,6 +23,8 @@ import sasslogo from '../assets/imgs/sassLogo.png';
 
 const styles = {
   paperContainer: {
+    // background: rgb(8,61,119);
+    background: 'linear-gradient(0deg, rgba(8,61,119,1) 15%, rgba(94,177,191,1) 96%)',
     backgroundColor: '#7c7c7c',
     minHeight: '50vh',
     backgroundSize: 'cover',
@@ -46,7 +48,6 @@ export default function Skills() {
         <Grid container spacing={ 2 } alignItems="flex-start" sx={ { pb: 10 } }>
           <Grid item xs={ 12 }>
             <Box
-              className="glitchAbout2"
               sx={ {
                 fontFamily: 'Bellaboo',
                 typography: 'title',
@@ -54,16 +55,14 @@ export default function Skills() {
                 ml: 5,
                 justifySelf: { xs: 'center', md: 'start' },
                 marginTop: 5,
-                color: '#323431',
+                color: '#f0f3f5',
                 mb: 5,
                 letterSpacing: 5,
                 // marginLeft: 5,
                 fontSize: { xs: 30, sm: 35, md: 40, lg: '5rem' },
                 display: 'block' } }
             >
-              <span aria-hidden="true">habilidades</span>
               habilidades
-              <span aria-hidden="true">habilidades</span>
             </Box>
           </Grid>
 
@@ -86,7 +85,7 @@ export default function Skills() {
                   gutterBottom
                   variant="h5"
                   component="div"
-                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 17, md: 20, lg: 30 }, mb: -1, textAlign: 'center', color: '#06d6a0' } }
+                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 17, md: 20, lg: 30 }, mb: -1, textAlign: 'center', color: '#fbcf67' } }
                 >
                   HTML
                 </Typography>
@@ -111,7 +110,7 @@ export default function Skills() {
                   gutterBottom
                   variant="h5"
                   component="div"
-                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 17, md: 20, lg: 30 }, mb: -1, textAlign: 'center', color: '#06d6a0', textTransform: 'uppercase' } }
+                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 17, md: 20, lg: 30 }, mb: -1, textAlign: 'center', color: '#fbcf67', textTransform: 'uppercase' } }
                 >
                   CSS
                 </Typography>
@@ -137,7 +136,7 @@ export default function Skills() {
                   gutterBottom
                   variant="h5"
                   component="div"
-                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 17, md: 20, lg: 30 }, mb: -1, textAlign: 'center', color: '#06d6a0', textTransform: 'uppercase' } }
+                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 17, md: 20, lg: 30 }, mb: -1, textAlign: 'center', color: '#fbcf67', textTransform: 'uppercase' } }
                 >
                   JavaScript
                 </Typography>
@@ -163,7 +162,7 @@ export default function Skills() {
                   gutterBottom
                   variant="h5"
                   component="div"
-                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 17, md: 20, lg: 30 }, mb: -1, textAlign: 'center', color: '#06d6a0', textTransform: 'uppercase' } }
+                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 17, md: 20, lg: 30 }, mb: -1, textAlign: 'center', color: '#fbcf67', textTransform: 'uppercase' } }
                 >
                   React JS
                 </Typography>
@@ -188,7 +187,7 @@ export default function Skills() {
                   gutterBottom
                   variant="h5"
                   component="div"
-                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 17, md: 20, lg: 30 }, mb: -1, textAlign: 'center', color: '#06d6a0', textTransform: 'uppercase' } }
+                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 17, md: 20, lg: 30 }, mb: -1, textAlign: 'center', color: '#fbcf67', textTransform: 'uppercase' } }
                 >
                   Jest
                 </Typography>
@@ -213,7 +212,7 @@ export default function Skills() {
                   gutterBottom
                   variant="h5"
                   component="div"
-                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 17, md: 20, lg: 30 }, mb: -1, textAlign: 'center', color: '#06d6a0', textTransform: 'uppercase' } }
+                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 17, md: 20, lg: 30 }, mb: -1, textAlign: 'center', color: '#fbcf67', textTransform: 'uppercase' } }
                 >
                   Material UI
                 </Typography>
@@ -238,7 +237,7 @@ export default function Skills() {
                   gutterBottom
                   variant="h5"
                   component="div"
-                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 17, md: 20, lg: 30 }, mb: -1, textAlign: 'center', color: '#06d6a0', textTransform: 'uppercase' } }
+                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 17, md: 20, lg: 30 }, mb: -1, textAlign: 'center', color: '#fbcf67', textTransform: 'uppercase' } }
                 >
                   Bootstrap
                 </Typography>
@@ -264,7 +263,7 @@ export default function Skills() {
                   gutterBottom
                   variant="h5"
                   component="div"
-                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 17, md: 20, lg: 30 }, mb: -1, textAlign: 'center', color: '#06d6a0' } }
+                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 17, md: 20, lg: 30 }, mb: -1, textAlign: 'center', color: '#fbcf67' } }
                 >
                   SASS
                 </Typography>

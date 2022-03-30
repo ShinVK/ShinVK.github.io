@@ -8,7 +8,10 @@ import backForest from '../assets/imgs/backForest.svg';
 const styles = {
   paperContainer: {
     // background: 'rgb(134,134,134)',
-    background: 'linear-gradient(0deg, rgba(32,34,33,1) 0%, rgba(134,134,134,1) 100%)',
+    // background: rgb(251,207,103);
+    // eslint-disable-next-line max-len
+    background: 'radial-gradient(circle, rgba(251,207,103,1) 25%, rgba(251,184,37,1) 32%, rgba(237,135,40,1) 50%)',
+    // background: 'linear-gradient(0deg, rgba(32,34,33,1) 0%, rgba(134,134,134,1) 100%)',
     boxShadow: 'none',
     position: 'relative',
   },
@@ -36,7 +39,7 @@ export default function MessageFil() {
                 fontWeight: 500,
                 maxWidth: '100%',
                 // color: '#922d50',
-                color: '#f5d491',
+                color: '#da4167',
                 textAlign: { xs: 'center' },
                 fontSize: { xs: '1.5rem', sm: '3rem', md: '3rem', xl: '6rem' },
                 letterSpacing: 6,
@@ -56,7 +59,7 @@ export default function MessageFil() {
                 fontWeight: 400,
                 maxWidth: '100%',
                 // color: '#f5d491',
-                color: '#06d6a0',
+                color: '#083d77',
                 textAlign: { xs: 'center' },
                 fontSize: { xs: '1.2rem', sm: '2rem', md: '2.5rem', xl: '4rem' },
                 letterSpacing: 4,
