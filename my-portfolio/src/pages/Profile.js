@@ -3,7 +3,7 @@
 import React from 'react';
 import { Box, Grid, Paper } from '@mui/material';
 import profilePhoto from '../assets/imgs/profile.png';
-import avatarProf from '../assets/imgs/ava.svg';
+import avatarProf from '../assets/imgs/perfil1.jpeg';
 
 const styles = {
   paperContainer: {
@@ -118,7 +118,7 @@ export default function Profile() {
                   width: '100%',
                   height: '100%' } }
               >
-                <img src={ avatarProf } style={ { width: '70%' } } alt="profile" />
+                <img src={ avatarProf } style={ { width: '80%', clipPath: 'ellipse(48% 46% at 50% 50%)' } } alt="profile" />
               </Box>
             </Box>
           </Grid>
