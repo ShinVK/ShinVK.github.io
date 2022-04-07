@@ -125,7 +125,7 @@ export default function RecipeReviewCard({ project }) {
             { maisDescricao }
           </Typography>
           <Typography
-            paragraph
+            div
             sx={ {
               fontFamily: 'Sinkin',
               fontSize: { xs: 8, md: 10, lg: 12 },

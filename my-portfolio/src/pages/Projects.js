@@ -8,7 +8,7 @@ import {
   Grid,
   Paper } from '@mui/material';
 // import CardProject from '../components/CardProject';
-import arrProject from '../assets/dbProjects/dbproj';
+import arrProject from '../assets/database/dbproj';
 import CardProject2 from '../components/CardProject2';
 
 const styles = {

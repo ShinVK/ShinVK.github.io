@@ -1,6 +1,7 @@
 /* eslint-disable max-len */
 import pixelArt from '../imgs/pixelArt.png';
 import recipesApp from '../imgs/recipes-app.png';
+import oldPorti from '../imgs/old-porti.png';
 
 const eslintIcon = 'devicon-eslint-original colored';
 const htmlIcon = 'devicon-html5-plain-wordmark colored';
@@ -10,7 +11,7 @@ const materialUiIcon = 'devicon-materialui-plain colored';
 // const mochaIcon = 'devicon-mocha-plain colored';
 // const jestIcon = 'devicon-jest-plain colored';
 // const mongoIcon = 'devicon-mongodb-plain colored';
-// const sassIcon = 'devicon-sass-original colored';
+const sassIcon = 'devicon-sass-original colored';
 // const sequelizeIcon = 'devicon-sequelize-plain colored';
 const reactIcon = 'devicon-react-original colored';
 // const reduxIcon = 'devicon-redux-original colored';
@@ -30,6 +31,20 @@ const projectsArr = [
     updates: ['2021/09/21 - version 1 - javascript, html e css'],
   },
   {
+    nome: 'Portifólio Antigo',
+    imagem: oldPorti,
+    data: '10 de Outubro de 2021',
+    gitHub: 'https://github.com/ShinVK/old-portifolio/',
+    linkSite: 'https://shinvk.github.io/old-portifolio/',
+    ferramentas: [cssIcon, htmlIcon, sassIcon],
+    descricao: 'Primeiro portifólio feito, com auxílio do SASS e HTML. Foi utilizado inicialmente como portifólio para o gitHub e posteriormente dropado.',
+    maisDescricao: 'Com este portifólio busquei aprimorar meus conhecimentos de SASS e HTML. Busquei utilizar os conceitos da cidade noturna do japão. A dificuldade de transformar em mobile  ',
+    updates: ['2021/10/01  - Início do projeto',
+      '2021/10/10 - version 1 - Portifólio com SASS',
+      '2022/01/15 - DROPED',
+    ],
+  },
+  {
     nome: 'Recipes App',
     imagem: recipesApp,
     data: '16 de Fevereiro de 2022',
@@ -43,7 +58,20 @@ const projectsArr = [
       '2022/02/06 - Version 2 - Estilização do projeto feito em Material UI',
     ],
   },
-
+  {
+    nome: 'Portifólio Antigo',
+    imagem: oldPorti,
+    data: '10 de Outubro de 2021',
+    gitHub: 'https://github.com/ShinVK/old-portifolio/',
+    linkSite: 'https://shinvk.github.io/old-portifolio/',
+    ferramentas: [cssIcon, htmlIcon, sassIcon],
+    descricao: 'Primeiro portifólio feito, com auxílio do SASS e HTML. Foi utilizado inicialmente como portifólio para o gitHub e posteriormente dropado.',
+    maisDescricao: 'Com este portifólio busquei aprimorar meus conhecimentos de SASS e HTML. Busquei utilizar os conceitos da cidade noturna do japão. A dificuldade de transformar em mobile  ',
+    updates: ['2021/10/01  - Início do projeto',
+      '2021/10/10 - version 1 - Portifólio com SASS',
+      '2022/01/15 - DROPED',
+    ],
+  },
 ];
 
 export default projectsArr;
