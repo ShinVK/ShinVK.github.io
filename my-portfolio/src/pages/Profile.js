@@ -47,7 +47,7 @@ export default function Profile() {
                 mb: -10,
                 letterSpacing: 5,
                 // marginLeft: 5,
-                fontSize: { xs: 30, sm: 35, md: 40, lg: '5rem' },
+                fontSize: { xs: 30, sm: 35, md: 40, lg: 40 },
                 display: 'block' } }
             >
               Sobre mim
@@ -81,7 +81,7 @@ export default function Profile() {
                 lineHeight: 1.4,
                 textAlign: { xs: 'justify', md: 'justify' },
                 marginTop: { xs: -10, md: 20, lg: 20 },
-                fontSize: { xs: 14, sm: 15, md: 15, lg: 30 },
+                fontSize: { xs: 14, sm: 15, md: 15, lg: 20 },
                 mb: { xs: 15, lg: 35 },
                 display: 'block' } }
             >
@@ -94,8 +94,10 @@ export default function Profile() {
               Sempre fui curioso e gostei de aprender coisas novas. Durante minha vida tive contato com sony vegas, corel draw, photoshop, illustrator e Excel VBA.
               <br />
               <br />
+
               Atualmente sou desenvolvedor web Front End, e estudando back End na trybe.
             </Box>
+
           </Grid>
           <Grid item xs={ 12 } md={ 6 }>
             <Box

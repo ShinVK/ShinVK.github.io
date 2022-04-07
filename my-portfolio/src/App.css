@@ -228,7 +228,12 @@ body {
 
 	25% { content: 'WELCOME' }
 
-	50% { content: 'BEM-VINDOS' }
+	50% { content: 'BEMVINDOS' }
 
 	75% { content: 'ようこそ' }
+}
+
+.MuiCardHeader-title {
+  font-family: 'Bellaboo';
+  font-size: 10px;
 }

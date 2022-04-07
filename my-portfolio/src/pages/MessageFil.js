@@ -35,7 +35,7 @@ export default function MessageFil() {
               component="div"
               sx={ {
                 fontFamily: 'JustSimple, Sinkin',
-                mt: { xs: 15, sm: 25, md: 25, xl: 47 },
+                mt: { xs: 15, sm: 25, md: 35, lg: 45, xl: 55 },
                 fontWeight: 500,
                 maxWidth: '100%',
                 // color: '#922d50',
@@ -64,7 +64,7 @@ export default function MessageFil() {
                 fontSize: { xs: '1.2rem', sm: '2rem', md: '2.5rem', xl: '4rem' },
                 letterSpacing: 4,
                 lineHeight: 1.4,
-                mb: 10,
+                mb: { xs: 15, sm: 20, md: 25, lg: 35, xl: 35 },
               } }
             >
               do grego: fazer algo com alma, criatividade ou amor.

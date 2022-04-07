@@ -31,7 +31,7 @@ export default function Homepage() {
                   justifySelf: { xs: 'center' },
                   justifyContent: 'center',
                   letterSpacing: 5,
-                  fontSize: { xs: 27, sm: 35, md: 51, lg: '7rem' },
+                  fontSize: { xs: 27, sm: 35, md: 40, lg: '7rem' },
                   display: 'flex' } }
               >
                 <span aria-hidden="true" className="titleHomeWelcome" />

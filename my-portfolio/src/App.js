@@ -7,8 +7,8 @@ import Routes from './routes/Routes';
 function App() {
   const theme = createTheme({
     typography: {
-      fontFamily: ['\'Sinkin\', \'sans-serif\'',
-        '\'Bellaboo\', \'sans-serif\'',
+      fontFamily: ['\'Bellaboo\', \'sans-serif\'',
+        '\'Sinkin\', \'sans-serif\'',
         '\'notime\', \'sans-serif\'',
         'JustSimple',
       ].join(','),

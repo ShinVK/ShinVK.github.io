@@ -59,7 +59,7 @@ export default function Skills() {
                 mb: 5,
                 letterSpacing: 5,
                 // marginLeft: 5,
-                fontSize: { xs: 30, sm: 35, md: 40, lg: '5rem' },
+                fontSize: { xs: 30, sm: 35, md: 40, lg: 40 },
                 display: 'block' } }
             >
               habilidades
@@ -67,17 +67,14 @@ export default function Skills() {
           </Grid>
 
           <Grid item xs={ 5 } md={ 3 } sx={ { ml: 'auto', marginBottom: { xs: 2 } } }>
-            <Card sx={ { maxWidth: 345, backgroundColor: '#323431' } }>
+            <Card sx={ { maxWidth: 155, backgroundColor: '#323431' } }>
               <CardMedia
                 component="img"
                 // height="180px"
                 image={ htmlimage }
                 alt="green iguana"
                 sx={ {
-                  height: { xs: 110, lg: 180 },
-                } }
-                sx={ {
-                  height: { xs: 110, lg: 180 },
+                  height: { xs: 55, lg: 100 },
                 } }
               />
               <CardContent>
@@ -85,7 +82,7 @@ export default function Skills() {
                   gutterBottom
                   variant="h5"
                   component="div"
-                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 17, md: 20, lg: 30 }, mb: -1, textAlign: 'center', color: '#fbcf67' } }
+                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 12, md: 15, lg: 20 }, mb: -1, textAlign: 'center', color: '#fbcf67' } }
                 >
                   HTML
                 </Typography>
@@ -95,14 +92,14 @@ export default function Skills() {
 
           <Grid item xs={ 5 } md={ 3 } sx={ { mr: 'auto', marginBottom: { md: 3, xs: 2 } } }>
 
-            <Card sx={ { maxWidth: 345, backgroundColor: '#323431' } }>
+            <Card sx={ { maxWidth: 155, backgroundColor: '#323431' } }>
               <CardMedia
                 component="img"
                 height="180"
                 image={ csslogo }
                 alt="green iguana"
                 sx={ {
-                  height: { xs: 110, lg: 180 },
+                  height: { xs: 55, lg: 100 },
                 } }
               />
               <CardContent>
@@ -110,7 +107,7 @@ export default function Skills() {
                   gutterBottom
                   variant="h5"
                   component="div"
-                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 17, md: 20, lg: 30 }, mb: -1, textAlign: 'center', color: '#fbcf67', textTransform: 'uppercase' } }
+                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 12, md: 15, lg: 20 }, mb: -1, textAlign: 'center', color: '#fbcf67', textTransform: 'uppercase' } }
                 >
                   CSS
                 </Typography>
@@ -121,14 +118,14 @@ export default function Skills() {
 
           <Grid item xs={ 5 } md={ 3 } sx={ { ml: 'auto', marginBottom: { md: 3, xs: 2 } } }>
 
-            <Card sx={ { maxWidth: 345, backgroundColor: '#323431' } }>
+            <Card sx={ { maxWidth: 155, backgroundColor: '#323431' } }>
               <CardMedia
                 component="img"
                 height="180"
                 image={ jslogo }
                 alt="green iguana"
                 sx={ {
-                  height: { xs: 110, lg: 180 },
+                  height: { xs: 55, lg: 100 },
                 } }
               />
               <CardContent>
@@ -136,7 +133,7 @@ export default function Skills() {
                   gutterBottom
                   variant="h5"
                   component="div"
-                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 17, md: 20, lg: 30 }, mb: -1, textAlign: 'center', color: '#fbcf67', textTransform: 'uppercase' } }
+                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 12, md: 15, lg: 20 }, mb: -1, textAlign: 'center', color: '#fbcf67', textTransform: 'uppercase' } }
                 >
                   JavaScript
                 </Typography>
@@ -147,14 +144,14 @@ export default function Skills() {
 
           <Grid item xs={ 5 } md={ 3 } sx={ { mr: 'auto', marginBottom: { md: 3, xs: 2 } } }>
 
-            <Card sx={ { maxWidth: 345, backgroundColor: '#323431' } }>
+            <Card sx={ { maxWidth: 155, backgroundColor: '#323431' } }>
               <CardMedia
                 component="img"
                 height="180"
                 image={ reactlogo }
                 alt="green iguana"
                 sx={ {
-                  height: { xs: 110, lg: 180 },
+                  height: { xs: 55, lg: 100 },
                 } }
               />
               <CardContent>
@@ -162,7 +159,7 @@ export default function Skills() {
                   gutterBottom
                   variant="h5"
                   component="div"
-                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 17, md: 20, lg: 30 }, mb: -1, textAlign: 'center', color: '#fbcf67', textTransform: 'uppercase' } }
+                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 12, md: 15, lg: 20 }, mb: -1, textAlign: 'center', color: '#fbcf67', textTransform: 'uppercase' } }
                 >
                   React JS
                 </Typography>
@@ -172,14 +169,14 @@ export default function Skills() {
 
           <Grid item xs={ 5 } md={ 3 } sx={ { ml: 'auto', marginBottom: { md: 3, xs: 2 } } }>
 
-            <Card sx={ { maxWidth: 345, backgroundColor: '#323431' } }>
+            <Card sx={ { maxWidth: 155, backgroundColor: '#323431' } }>
               <CardMedia
                 component="img"
                 height="180"
                 image={ jestlogo }
                 alt="green iguana"
                 sx={ {
-                  height: { xs: 110, lg: 180 },
+                  height: { xs: 55, lg: 100 },
                 } }
               />
               <CardContent>
@@ -187,7 +184,7 @@ export default function Skills() {
                   gutterBottom
                   variant="h5"
                   component="div"
-                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 17, md: 20, lg: 30 }, mb: -1, textAlign: 'center', color: '#fbcf67', textTransform: 'uppercase' } }
+                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 12, md: 15, lg: 20 }, mb: -1, textAlign: 'center', color: '#fbcf67', textTransform: 'uppercase' } }
                 >
                   Jest
                 </Typography>
@@ -197,14 +194,14 @@ export default function Skills() {
           </Grid>
 
           <Grid item xs={ 5 } md={ 3 } sx={ { mr: 'auto', marginBottom: { md: 3, xs: 2 } } }>
-            <Card sx={ { maxWidth: 345, backgroundColor: '#323431' } }>
+            <Card sx={ { maxWidth: 155, backgroundColor: '#323431' } }>
               <CardMedia
                 component="img"
                 height="180"
                 image={ muilogo }
                 alt="green iguana"
                 sx={ {
-                  height: { xs: 110, lg: 180 },
+                  height: { xs: 55, lg: 100 },
                 } }
               />
               <CardContent>
@@ -212,7 +209,7 @@ export default function Skills() {
                   gutterBottom
                   variant="h5"
                   component="div"
-                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 17, md: 20, lg: 30 }, mb: -1, textAlign: 'center', color: '#fbcf67', textTransform: 'uppercase' } }
+                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 12, md: 15, lg: 20 }, mb: -1, textAlign: 'center', color: '#fbcf67', textTransform: 'uppercase' } }
                 >
                   Material UI
                 </Typography>
@@ -222,14 +219,14 @@ export default function Skills() {
 
           <Grid item xs={ 5 } md={ 3 } sx={ { ml: 'auto', marginBottom: { md: 3, xs: 2 } } }>
 
-            <Card sx={ { maxWidth: 345, backgroundColor: '#323431' } }>
+            <Card sx={ { maxWidth: 155, backgroundColor: '#323431' } }>
               <CardMedia
                 component="img"
                 height="180"
                 image={ bootlogo }
                 alt="green iguana"
                 sx={ {
-                  height: { xs: 110, lg: 180 },
+                  height: { xs: 55, lg: 100 },
                 } }
               />
               <CardContent>
@@ -237,7 +234,7 @@ export default function Skills() {
                   gutterBottom
                   variant="h5"
                   component="div"
-                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 17, md: 20, lg: 30 }, mb: -1, textAlign: 'center', color: '#fbcf67', textTransform: 'uppercase' } }
+                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 12, md: 15, lg: 20 }, mb: -1, textAlign: 'center', color: '#fbcf67', textTransform: 'uppercase' } }
                 >
                   Bootstrap
                 </Typography>
@@ -248,14 +245,14 @@ export default function Skills() {
 
           <Grid item xs={ 5 } md={ 3 } sx={ { mr: 'auto', marginBottom: { md: 3, xs: 2 } } }>
 
-            <Card sx={ { maxWidth: 345, backgroundColor: '#323431' } }>
+            <Card sx={ { maxWidth: 155, backgroundColor: '#323431' } }>
               <CardMedia
                 component="img"
                 height="180"
                 image={ sasslogo }
                 alt="green iguana"
                 sx={ {
-                  height: { xs: 110, lg: 180 },
+                  height: { xs: 55, lg: 100 },
                 } }
               />
               <CardContent>
@@ -263,7 +260,7 @@ export default function Skills() {
                   gutterBottom
                   variant="h5"
                   component="div"
-                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 17, md: 20, lg: 30 }, mb: -1, textAlign: 'center', color: '#fbcf67' } }
+                  sx={ { fontFamily: 'Bellaboo', fontSize: { xs: 12, md: 15, lg: 20 }, mb: -1, textAlign: 'center', color: '#fbcf67' } }
                 >
                   SASS
                 </Typography>
