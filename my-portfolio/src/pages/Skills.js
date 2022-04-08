@@ -16,9 +16,7 @@ import skillDb from '../assets/database/dbSkills';
 
 const styles = {
   paperContainer: {
-    // background: rgb(8,61,119);
     background: 'linear-gradient(0deg, rgba(8,61,119,1) 15%, rgba(94,177,191,1) 96%)',
-    backgroundColor: '#7c7c7c',
     minHeight: '50vh',
     backgroundSize: 'cover',
     marginTop: '-60px',
@@ -64,11 +62,11 @@ export default function Skills() {
                 <Card sx={ { justifyItems: 'center', minWidth: 155, backgroundColor: '#323431' } }>
                   <CardMedia
                     component="img"
-                    // height="180px"
+                    // height="600px"
                     image={ imagem }
                     alt="green iguana"
                     sx={ {
-                      height: { xs: 55, lg: 100 },
+                      height: { xs: 100, lg: 100 },
                     } }
                   />
                   <CardContent>

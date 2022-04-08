@@ -28,7 +28,7 @@ const ExpandMore = styled((props) => {
 
 export default function RecipeReviewCard({ project }) {
   const [expanded, setExpanded] = React.useState(false);
-  const { nome, updates,
+  const { nome, updates, modulo,
     imagem, gitHub, linkSite,
     ferramentas, data, descricao, maisDescricao } = project;
   const handleExpandClick = () => {
@@ -42,7 +42,7 @@ export default function RecipeReviewCard({ project }) {
         <CardHeader
           avatar={
             <Avatar sx={ { bgcolor: '#f5853f' } } aria-label="recipe">
-              front
+              { modulo }
             </Avatar>
           }
           title={
@@ -51,7 +51,7 @@ export default function RecipeReviewCard({ project }) {
               variant="h5"
               component="h2"
               sx={
-                { fontFamily: 'Bellaboo', fontSize: { xs: 12, md: 15, lg: 20 } }
+                { fontFamily: 'Bellaboo', fontSize: { xs: 15, md: 20, lg: 20 } }
               }
             >
               { nome }
@@ -63,7 +63,7 @@ export default function RecipeReviewCard({ project }) {
               variant="h5"
               component="h2"
               sx={
-                { fontFamily: 'Bellaboo', fontSize: { xs: 8, md: 10, lg: 12 } }
+                { fontFamily: 'Bellaboo', fontSize: { xs: 12, md: 12, lg: 12 } }
               }
             >
               { data }
@@ -81,7 +81,7 @@ export default function RecipeReviewCard({ project }) {
             variant="body2"
             color="text.secondary"
             sx={
-              { fontFamily: 'Sinkin', fontSize: { xs: 8, md: 10, lg: 12 } }
+              { fontFamily: 'Sinkin', fontSize: { xs: 12, md: 12, lg: 12 } }
             }
           >
             { descricao }
@@ -110,7 +110,7 @@ export default function RecipeReviewCard({ project }) {
           <Typography
             paragraph
             sx={
-              { fontFamily: 'Sinkin', fontSize: { xs: 8, md: 10, lg: 12 } }
+              { fontFamily: 'Sinkin', fontSize: { xs: 12, md: 12, lg: 12 } }
             }
           >
             Method:
@@ -119,7 +119,7 @@ export default function RecipeReviewCard({ project }) {
           <Typography
             paragraph
             sx={
-              { fontFamily: 'Sinkin', fontSize: { xs: 8, md: 10, lg: 12 } }
+              { fontFamily: 'Sinkin', fontSize: { xs: 12, md: 12, lg: 12 } }
             }
           >
             { maisDescricao }
@@ -128,20 +128,20 @@ export default function RecipeReviewCard({ project }) {
             div
             sx={ {
               fontFamily: 'Sinkin',
-              fontSize: { xs: 8, md: 10, lg: 12 },
+              fontSize: { xs: 12, md: 12, lg: 12 },
             } }
           >
             Updates:
-            <ol style={ { marginLeft: 20, color: '#8d8d8d' } }>
+            <ul style={ { marginLeft: 20, color: '#8d8d8d' } }>
               { updates.map(((el, i) => (
                 <li key={ i }>
                   {' '}
                   {el}
                 </li>
               ))) }
-            </ol>
+            </ul>
           </Typography>
-          <Typography paragraph>
+          <Typography paragraph sx={ { mt: 2 } }>
             { ferramentas.map((el, i) => (
               <i style={ { fontSize: 40 } } key={ i } className={ el } />
             ))}

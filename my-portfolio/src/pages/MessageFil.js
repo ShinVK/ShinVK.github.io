@@ -7,11 +7,8 @@ import backForest from '../assets/imgs/backForest.svg';
 
 const styles = {
   paperContainer: {
-    // background: 'rgb(134,134,134)',
-    // background: rgb(251,207,103);
     // eslint-disable-next-line max-len
-    background: 'radial-gradient(circle, rgba(251,207,103,1) 25%, rgba(251,184,37,1) 32%, rgba(237,135,40,1) 50%)',
-    // background: 'linear-gradient(0deg, rgba(32,34,33,1) 0%, rgba(134,134,134,1) 100%)',
+    background: 'radial-gradient(circle, rgba(251,207,103,0.9) 25%, rgba(251,184,37,0.8) 32%, rgba(237,135,40,0.7) 50%)',
     boxShadow: 'none',
     position: 'relative',
   },

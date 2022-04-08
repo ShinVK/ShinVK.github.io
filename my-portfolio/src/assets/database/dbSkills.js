@@ -10,6 +10,9 @@ import sasslogo from '../imgs/sassLogo.png';
 import nodelogo from '../imgs/node-js.png';
 import mochalogo from '../imgs/mocha.jpg';
 import chailogo from '../imgs/chai.png';
+import mysqllogo from '../imgs/mysql.png';
+import dockerlogo from '../imgs/docker.png';
+import sequelizelogo from '../imgs/sequelize-logo.png';
 
 const skillsArr = [
   {
@@ -45,8 +48,16 @@ const skillsArr = [
     imagem: sasslogo,
   },
   {
+    nome: 'DOCKER',
+    imagem: dockerlogo,
+  },
+  {
     nome: 'NODE JS',
     imagem: nodelogo,
+  },
+  {
+    nome: 'MYSQL',
+    imagem: mysqllogo,
   },
   {
     nome: 'MOCHA',
@@ -55,6 +66,10 @@ const skillsArr = [
   {
     nome: 'CHAI',
     imagem: chailogo,
+  },
+  {
+    nome: 'SEQUELIZE',
+    imagem: sequelizelogo,
   },
 ];
 

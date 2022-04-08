@@ -7,13 +7,8 @@ import avatarProf from '../assets/imgs/perfil1.jpeg';
 
 const styles = {
   paperContainer: {
-    // background: 'linear-gradient(0deg, rgba(134,134,134,1) 0%, rgba(134,134,134,1) 0%, rgba(32,34,33,1) 70%)',
-    background: 'linear-gradient(0deg, rgba(94,177,191,1) 0%, rgba(94,177,191,1) 41%, rgba(237,135,40,1) 80%)',
-    // -webkit-clip-path: 'circle(67.7% at 50% 72%)',
-    // clipPath: 'circle(67.7% at 50% 72%)',
-    marginTop: -10,
+    background: 'linear-gradient(0deg, rgba(94,177,191,1) 0%, rgba(94,177,191,1) 41%, rgba(237,135,40,0.7) 80%)',
     boxShadow: 'none',
-    // minHeight: '80vh',
   },
 };
 
