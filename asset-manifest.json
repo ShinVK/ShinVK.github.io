@@ -1,31 +1,36 @@
 {
   "files": {
     "main.css": "/static/css/main.89303321.css",
-    "main.js": "/static/js/main.8c6be1f1.js",
+    "main.js": "/static/js/main.6581379a.js",
+    "static/media/trybetunes.png": "/static/media/trybetunes.0b0441dc275503eaf16d.png",
     "static/media/old-porti.png": "/static/media/old-porti.75e2d2f0715e160ec9cc.png",
     "static/media/back_city.png": "/static/media/back_city.b2f1d22ba81608f945fa.png",
     "static/media/backForest.svg": "/static/media/backForest.daf8ed50e7b564b9c72921c1ccf0c5d9.svg",
     "static/media/profile.png": "/static/media/profile.7eba91c75bb969b34a74.png",
     "static/media/BELLABOO-Regular.otf": "/static/media/BELLABOO-Regular.6cef502b2940d156c54f.otf",
+    "static/media/sequelize-logo.png": "/static/media/sequelize-logo.b0684179f059e29cf033.png",
     "static/media/mocha.jpg": "/static/media/mocha.1f3910cc7b8d41189663.jpg",
     "static/media/Just Simple.ttf": "/static/media/Just Simple.acae00b7eade771b11ab.ttf",
+    "static/media/color-guess.png": "/static/media/color-guess.8506bd7c91fb109de05c.png",
     "static/media/jslogo.png": "/static/media/jslogo.029db7d4b814c1430763.png",
     "static/media/perfil1.jpeg": "/static/media/perfil1.23fbf3d5a8c616c0cecf.jpeg",
+    "static/media/todolist.png": "/static/media/todolist.4ed3dad8bd1f93e81c63.png",
     "static/media/recipes-app.png": "/static/media/recipes-app.54af00219b7894077da5.png",
     "static/media/cssLogo.png": "/static/media/cssLogo.5227db3affe64f13f0fa.png",
     "static/media/SinkinSans-400Regular.otf": "/static/media/SinkinSans-400Regular.b43746214c35a2ca736f.otf",
     "static/media/chai.png": "/static/media/chai.3002f262334250cac298.png",
     "static/media/NoTime.ttf": "/static/media/NoTime.57ceb6b6b88124215224.ttf",
     "static/media/pixelArt.png": "/static/media/pixelArt.fd88002869856a9f65dd.png",
+    "static/media/docker.png": "/static/media/docker.a97e4d147d1e82334051.png",
     "static/media/muilogo.png": "/static/media/muilogo.5b2d8a0a309d9f7d47c1.png",
     "static/media/reactLogo.png": "/static/media/reactLogo.367a8df5ba9c7a95160e.png",
     "static/media/bootlogo.svg": "/static/media/bootlogo.d180fe4cd44732fd70b35f650a76b99c.svg",
     "index.html": "/index.html",
     "main.89303321.css.map": "/static/css/main.89303321.css.map",
-    "main.8c6be1f1.js.map": "/static/js/main.8c6be1f1.js.map"
+    "main.6581379a.js.map": "/static/js/main.6581379a.js.map"
   },
   "entrypoints": [
     "static/css/main.89303321.css",
-    "static/js/main.8c6be1f1.js"
+    "static/js/main.6581379a.js"
   ]
 }
