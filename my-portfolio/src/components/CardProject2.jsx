@@ -29,7 +29,7 @@ const ExpandMore = styled((props) => {
 export default function RecipeReviewCard({ project }) {
   const [expanded, setExpanded] = React.useState(false);
   const { nome, updates, modulo,
-    imagem, gitHub, linkSite,
+    imagem, gitHub, linkSite, disponivel,
     ferramentas, data, descricao, maisDescricao } = project;
   const handleExpandClick = () => {
     setExpanded(!expanded);
@@ -141,6 +141,24 @@ export default function RecipeReviewCard({ project }) {
               ))) }
             </ul>
           </Typography>
+
+          <Typography
+            div
+            sx={ {
+              fontFamily: 'Sinkin',
+              fontSize: { xs: 12, md: 12, lg: 12 },
+            } }
+          >
+            Otimizado:
+            <ul style={ { marginLeft: 20, color: '#8d8d8d' } }>
+              { disponivel.map(((el, i) => (
+                <li key={ i }>
+                  {el}
+                </li>
+              ))) }
+            </ul>
+          </Typography>
+
           <Typography paragraph sx={ { mt: 2 } }>
             { ferramentas.map((el, i) => (
               <i style={ { fontSize: 40 } } key={ i } className={ el } />

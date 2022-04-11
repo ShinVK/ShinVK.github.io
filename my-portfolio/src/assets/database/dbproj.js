@@ -4,6 +4,7 @@ import recipesApp from '../imgs/recipes-app.png';
 import oldPorti from '../imgs/old-porti.png';
 import colorGuess from '../imgs/color-guess.png';
 import todolist from '../imgs/todolist.png';
+import trybeTunes from '../imgs/trybetunes.png';
 
 const eslintIcon = 'devicon-eslint-original colored';
 const htmlIcon = 'devicon-html5-plain-wordmark colored';
@@ -32,6 +33,7 @@ const projectsArr = [
     + ' funções, querySelectors e lógica de programação',
     maisDescricao: 'PROJETO FRONT-END - Com o intuito de desenvolver uma tela onde as cores são geradas aleatoriamente, sendo assim possível pintar os "pixels" do quadro.',
     updates: ['10.09.21 - version 1 - javascript, html e css'],
+    disponivel: ['web', 'mobile'],
   },
   {
     modulo: 'front',
@@ -47,6 +49,8 @@ const projectsArr = [
       '14.09.21 - Projeto Funcional',
       '14.09.21 - Estilizações em CSS',
     ],
+    disponivel: ['web'],
+
   },
   {
     modulo: 'front',
@@ -62,6 +66,7 @@ const projectsArr = [
       '18.09.21 - version 1 - Projeto funcional',
       '18.09.21 - Estilização',
     ],
+    disponivel: ['web'],
   },
   {
     modulo: 'front',
@@ -77,6 +82,23 @@ const projectsArr = [
       '10.10.21 - version 1 - Portifólio com SASS',
       '15.01.21 - DROPED',
     ],
+    disponivel: ['web'],
+  },
+  {
+    modulo: 'front',
+    nome: 'TRYBETUNES',
+    imagem: trybeTunes,
+    data: '17 de Novembro de 2021',
+    gitHub: 'https://github.com/ShinVK/trybetunes/',
+    linkSite: 'https://shinvk.github.io/trybetunes/',
+    ferramentas: [cssIcon, htmlIcon, reactIcon, materialUiIcon],
+    descricao: 'Projeto TrybeTunes - Simular um app de músicas, inicialmente utilizando React JS, depois estilizado com Material UI',
+    maisDescricao: 'Ao fazer a estilização alguns meses depois, encontrei algumas dificuldades para entender a implementação, sentindo a necessidade de refatorar futuramente. Para a próxima feature, seria organizar melhor a ideia do projeto, assim como a organização do seu sistema',
+    updates: ['11.11.21  - Início do projeto',
+      '17.11.21 - version 1 - Funcionalidades',
+      '11.04.22 - Estilização MUI',
+    ],
+    disponivel: ['web', 'mobile'],
   },
   {
     modulo: 'front',
@@ -92,6 +114,8 @@ const projectsArr = [
       '04.02.21 - version 1 - Entrega do Projeto React sem estilização',
       '06.02.21 - Version 2 - Estilização do projeto feito em Material UI',
     ],
+    disponivel: ['web', 'mobile'],
+
   },
 ];
 
